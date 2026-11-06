@@ -11,6 +11,11 @@ import FormsSelectRadio from './68-FormsSelectRadio.jsx';
 import FormsDefaultValue from './69-FormsDefaultValue';
 import FormsArray from './70-FormsArray';
 import FormsObject from './71-FormsObject';
+import ArrayAdding from './73-ArrayAdding';
+import ArrayOperations from './74-ArrayOperations';
+import ObjectsArrayAdding from './75-ObjectsArrayAdding';
+import ObjectsArrayOperations from './76-ObjectsArrayOperations';
+import Showing from './77-Showing';
 
 export default function App() {
     return (
@@ -27,6 +32,11 @@ export default function App() {
             <FormsDefaultValue />
             <FormsArray />
             <FormsObject />
+            <ArrayAdding />
+            <ArrayOperations />
+            <ObjectsArrayAdding />
+            <ObjectsArrayOperations />
+            <Showing />
         </>
     );
 }
